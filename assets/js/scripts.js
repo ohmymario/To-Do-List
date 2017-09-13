@@ -6,7 +6,7 @@ $("ul").on("click", "li", function() {
 
 // Click on X to delete the "todo"
 
-$("li").on("click", "span", function(e) {
+$("ul").on("click", "span", function(e) {
   e.stopPropagation();
   $(this).parent().fadeOut(500, function() {
     $(this).remove();
