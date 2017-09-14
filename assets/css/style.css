@@ -26,6 +26,7 @@ h1 {
 
 .fa-plus {
   float: right;
+  padding-top: 4px;
 }
 
 /****** Container and List Styles *********/
