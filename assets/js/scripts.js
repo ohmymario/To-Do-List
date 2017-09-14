@@ -20,6 +20,6 @@ $("input[type=text]").on("keypress", function(e) {
     //clear to allow for additional input
     $(this).val("");
     // create a new li "todoText" and append to ul
-    $("ul").append("<li><span>X</span> " + todoText + "</li>");
+    $("ul").append("<li><span><i class='fa fa-trash' aria-hidden='true'></i></span> " + todoText + "</li>");
   }
 });
