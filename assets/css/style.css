@@ -13,7 +13,6 @@ body{
   
 }
 
-
 /****** Header Styles *********/
 h1 {
   background: #2980b9;
@@ -48,6 +47,24 @@ li {
   background: white;
   height: 40px;
   line-height: 40px;
+}
+
+span {
+  background: #e74c3c;
+  color: white;
+  /* set to inline block so width and height are used */
+  display: inline-block;
+  height: 40px;
+  margin-right: 20px;
+  opacity: 0;
+  text-align: center;
+  transition: 0.2s linear;
+  width: 0;
+}
+
+li:hover span {
+  width: 40px;
+  opacity: 1.0;
 }
 
 li:nth-child(2n) {
