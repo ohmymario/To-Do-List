@@ -23,3 +23,7 @@ $("input[type=text]").on("keypress", function(e) {
     $("ul").append("<li><span><i class='fa fa-trash' aria-hidden='true'></i></span> " + todoText + "</li>");
   }
 });
+
+$(".fa-plus").on("click", function() {
+  $("input[type=text]").fadeToggle(500);
+});

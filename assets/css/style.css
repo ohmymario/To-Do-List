@@ -67,6 +67,7 @@ li:hover span {
   opacity: 1.0;
 }
 
+/* adds different styling every other list item */
 li:nth-child(2n) {
   background: #f7f7f7
 }
@@ -81,6 +82,7 @@ li:nth-child(2n) {
 input[type=text] {
   background: #f7f7f7;
   border: none;
+  /* border box used to allow width:100% to use padding in its calculation */
   box-sizing: border-box;
   color: #2980b9;
   font-size: 18px;
